@@ -1,0 +1,29 @@
+# ── Environment / Secrets ──────────────────
+.env
+backend/.env
+**/application-local.properties
+
+# ── H2 Database File ───────────────────────
+*.db.mv.db
+*.db.trace.db
+tripyatra-db.*
+
+# ── Node.js ────────────────────────────────
+node_modules/
+package-lock.json
+
+# ── Java / Maven ───────────────────────────
+backend/target/
+backend/.maven/
+*.jar
+*.class
+
+# ── IDE ────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ── OS ─────────────────────────────────────
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+{
+  "name": "tripyatra",
+  "version": "1.0.0",
+  "description": "Smart Trip Planner — Java Spring Boot + HTML/JS",
+  "scripts": {
+    "start:frontend": "cd frontend && node server.js"
+  }
+}
